@@ -49,3 +49,7 @@ main > .allpage.section > div {
     width: 100% !important;
     display: inline-block !important;
 }
+
+.carousel .carousel-slide-indicators {
+    background-color: transparent !important;
+}
