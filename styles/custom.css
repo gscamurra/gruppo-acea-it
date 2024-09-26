@@ -42,7 +42,7 @@ main > .allpage.section > div {
     background-color: #e8e100 !important;
 }
 
-nav {
+nav li.nav-drop {
     color: #454545 !important;
 }
 
