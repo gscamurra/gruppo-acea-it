@@ -3,3 +3,7 @@ main > .allpage.section > div {
     margin: 0;
     max-width: 100%;
 }
+
+.carousel .carousel-slide .carousel-slide-content {
+    background: none;
+}
