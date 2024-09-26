@@ -41,3 +41,10 @@ main > .allpage.section > div {
     width: 50px !important;
     background-color: #e8e100 !important;
 }
+
+.carousel .carousel-slide-indicator {
+    margin-top: -40px;
+    position: absolute;
+    background: transparent;
+    width: 100%;
+}
