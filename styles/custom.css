@@ -11,3 +11,8 @@ main > .allpage.section > div {
 .carousel .carousel-slide {
     min-height: 780px !important;
 }
+
+.carousel .button-container a {
+    border: 3px solid #e8e100;
+    background: transparent;
+}
