@@ -36,8 +36,8 @@ main > .allpage.section > div {
 }
 
 .carousel .carousel-slide-indicator button {
-    border-radius: 0;
-    height: 5px;
-    width: 50px;
-    background-color: #e8e100;
+    border-radius: 0 !important;
+    height: 5px !important;
+    width: 50px !important;
+    background-color: #e8e100 !important;
 }
