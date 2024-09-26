@@ -53,3 +53,9 @@ main > .allpage.section > div {
 .carousel .carousel-slide-indicators {
     background-color: transparent !important;
 }
+
+@media (width >= 900px) {
+    h2 {
+      font-size: 60px !important;
+    }
+  }
