@@ -55,6 +55,11 @@ main > .allpage.section > div {
 }
 
 @media (width >= 900px) {
+
+    header nav {
+        max-width: 100%;
+    }
+
     h2 {
       font-size: 60px !important;
     }
