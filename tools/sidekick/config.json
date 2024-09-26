@@ -5,7 +5,7 @@
       "id": "library",
       "title": "Library",
       "environments": [ "dev", "edit" ],
-      "url": "main--gruppo-acea-it--gscamurra.hlx.page/tools/sidekick/library.html",
+      "url": "https://main--gruppo-acea-it--gscamurra.hlx.page/tools/sidekick/library.html",
       "includePaths": [ "**.docx**" ]
     },
     {
