@@ -27,8 +27,10 @@ main > .allpage.section > div {
 .carousel .button-container a {
     border: 3px solid #e8e100;
     background: transparent;
+    border-radius: 4vh 4vh 0 4vh;
 }
 
 .carousel .button-container a:hover {
     text-decoration: underline;
+    border-radius: 4vh 4vh 4vh 4vh;
 }
