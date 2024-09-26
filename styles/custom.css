@@ -56,6 +56,10 @@ main > .allpage.section > div {
 
 @media (width >= 900px) {
 
+    #nav {
+        margin-top: 28px;
+    }
+
     header nav {
         max-width: 100% !important;
     }
