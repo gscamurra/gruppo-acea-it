@@ -42,6 +42,10 @@ main > .allpage.section > div {
     background-color: #e8e100 !important;
 }
 
+nav {
+    color: #454545 !important;
+}
+
 .carousel nav {
     margin-top: -40px !important;
     position: absolute !important;
