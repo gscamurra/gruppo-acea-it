@@ -5,5 +5,5 @@ main > .allpage.section > div {
 }
 
 .carousel .carousel-slide .carousel-slide-content {
-    background-color: none;
+    background-color: none !important;
 }
