@@ -16,3 +16,7 @@ main > .allpage.section > div {
     border: 3px solid #e8e100;
     background: transparent;
 }
+
+.carousel .button-container a:hover {
+    text-decoration: underline;
+}
