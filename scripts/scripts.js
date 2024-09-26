@@ -48,30 +48,6 @@ function buildHeroBlock(main) {
   }
 }
 
-function buildYoutubeBlock(main) {
-  var links = document.getElementsByTagName('a'), hrefs = [];
-  for (var i = 0; i < links.length; i++)
-    {   
-        if (links[i].href.includes("youtube.com"))  {
-
-          var url = new URL(links[i].href);
-          var vUrl = url.searchParams.get("v");
-  
-          var temp = document.createElement('div');
-         temp.innerHTML = `<div class="videoYoutube"><div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
-      <iframe src="https://www.youtube.com/embed/`+vUrl+`" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" 
-      allow="autoplay; fullscreen; picture-in-picture; encrypted-media; accelerometer; gyroscope; picture-in-picture" allowfullscreen="" scrolling="no" title="Content from Youtube" loading="lazy"></iframe>
-    </div></div>`;
-
-          document.querySelectorAll('[href="https://www.youtube.com/watch?v='+vUrl+'"]')[0].replaceWith(temp.children.item(0));          
-          hrefs.push(links[i].href);
-          console.log(links[i].href);
-        }
-
-    }
-  console.log("buildYoutubeBlock");
-}
-
 
 /**
  * load fonts.css and set a session storage flag
@@ -91,14 +67,10 @@ async function loadFonts() {
  */
 function buildAutoBlocks(main) {
   try {
-    
-    var pageTheme = document.querySelector("meta[name='theme']").getAttribute("content");
-    //console.log(pageTheme);
-    if (pageTheme == "Articolo" || pageTheme == "articolo" ) {
 
       buildHeroBlock(main);
       buildYoutubeBlock(main);
-    }
+    
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
