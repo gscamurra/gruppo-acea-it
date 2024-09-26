@@ -28,6 +28,7 @@ main > .allpage.section > div {
     border: 3px solid #e8e100;
     background: transparent;
     border-radius: 4vh 4vh 0 4vh;
+    transition: all .3s;
 }
 
 .carousel .button-container a:hover {
