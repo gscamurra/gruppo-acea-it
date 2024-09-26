@@ -19,7 +19,6 @@ main > .allpage.section > div {
     color: #ddd;
 }
 
-
 .carousel .carousel-slide {
     min-height: 780px !important;
 }
@@ -34,4 +33,11 @@ main > .allpage.section > div {
 .carousel .button-container a:hover {
     text-decoration: underline;
     border-radius: 4vh 4vh 4vh 4vh;
+}
+
+.carousel .carousel-slide-indicator button {
+    border-radius: 0;
+    height: 5px;
+    width: 50px;
+    background-color: #e8e100;
 }
