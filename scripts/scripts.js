@@ -38,17 +38,6 @@ export function getAllMetadata(scope) {
     }, {});
 }
 
-// Define an execution context
-const pluginContext = {
-  getAllMetadata,
-  getMetadata,
-  loadCSS,
-  loadScript,
-  sampleRUM,
-  toCamelCase,
-  toClassName,
-};
-
 /**
  * Builds hero block and prepends to main in a new section.
  * @param {Element} main The container element
@@ -163,5 +152,14 @@ async function loadPage() {
   await loadLazy(document);
   loadDelayed();
 }
+
+window.hlx.plugins.add('experimentation', {
+  condition: () => getMetadata('experiment')
+    || Object.keys(getAllMetadata('campaign')).length
+    || Object.keys(getAllMetadata('audience')).length,
+  options: { audiences: AUDIENCES },
+  load: 'eager',
+  url: '/plugins/experimentation/src/index.js',
+});
 
 loadPage();
