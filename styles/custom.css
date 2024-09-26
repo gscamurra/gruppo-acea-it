@@ -54,7 +54,15 @@ main > .allpage.section > div {
     background-color: transparent !important;
 }
 
+.nav-brand img {
+    width: 68px;
+}
+
 @media (width >= 900px) {
+
+    .nav-brand img {
+        width: 128px !important;
+    }
 
     #nav {
         margin-top: 28px;
