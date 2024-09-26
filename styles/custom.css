@@ -15,6 +15,10 @@ main > .allpage.section > div {
     padding-left: 13px;
 }
 
+.carousel h4 strong {
+    color: #ddd;
+}
+
 
 .carousel .carousel-slide {
     min-height: 780px !important;
