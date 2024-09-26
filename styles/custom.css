@@ -7,3 +7,7 @@ main > .allpage.section > div {
 .carousel .carousel-slide .carousel-slide-content {
     background-color: transparent !important;
 }
+
+.carousel .carousel-slide {
+    min-height: 580px !important;
+}
