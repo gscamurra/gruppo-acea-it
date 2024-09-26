@@ -43,8 +43,9 @@ main > .allpage.section > div {
 }
 
 .carousel .carousel-slide-indicators {
-    margin-top: -40px;
-    position: absolute;
-    background: transparent;
-    width: 100%;
+    margin-top: -40px !important;
+    position: absolute !important;
+    background: transparent !important;
+    width: 100% !important;
+    display: inline-block !important;
 }
