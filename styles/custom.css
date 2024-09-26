@@ -42,7 +42,7 @@ main > .allpage.section > div {
     background-color: #e8e100 !important;
 }
 
-.carousel .carousel-slide-indicator {
+.carousel .carousel-slide-indicators {
     margin-top: -40px;
     position: absolute;
     background: transparent;
