@@ -90,6 +90,10 @@ nav li.nav-drop {
     width: 100%;
 }
 
+.sectors .columns-4-cols div div p:nth-child(2) {
+    height: 100px;
+}
+
 @media (width >= 900px) {
 
     .nav-brand img {
