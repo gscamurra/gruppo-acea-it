@@ -80,8 +80,9 @@ nav li.nav-drop {
 }
 
 .sectors img {
-    max-width: 180px;
-    height: auto;
+    width: 180px;
+    height: 180px;
+
 }
 
 @media (width >= 900px) {
