@@ -89,6 +89,16 @@ nav li.nav-drop {
     height: 125px;
 }
 
+.sectors p {
+    font-size: 16px !important;
+}
+
+.sectors .button-container a {
+    font-size: 16px !important;
+    color: #00a8b0;
+    background: transparent;
+}
+
 @media (width >= 900px) {
 
     .nav-brand img {
