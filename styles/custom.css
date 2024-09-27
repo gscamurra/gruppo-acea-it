@@ -120,6 +120,10 @@ nav li.nav-drop {
     border-radius: 4vh 4vh 4vh 4vh;
 }
 
+.articles h3 {
+    font-size: 40px;
+}
+
 
 @media (width >= 900px) {
 
