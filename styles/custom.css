@@ -109,8 +109,7 @@ nav li.nav-drop {
 }
 
 .articles .button-container a {
-    border: 3px solid #00a8b0;
-    background: transparent;
+    background-color: #00a8b0;;
     border-radius: 4vh 4vh 0 4vh;
     transition: all .3s;
     color: #FFF;
