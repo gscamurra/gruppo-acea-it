@@ -108,6 +108,20 @@ nav li.nav-drop {
     text-decoration: underline;
 }
 
+.articles .button-container a {
+    border: 3px solid #00a8b0;
+    background: transparent;
+    border-radius: 4vh 4vh 0 4vh;
+    transition: all .3s;
+    color: #FFF;
+}
+
+.articles .button-container a:hover {
+    text-decoration: underline;
+    border-radius: 4vh 4vh 4vh 4vh;
+}
+
+
 @media (width >= 900px) {
 
     .nav-brand img {
