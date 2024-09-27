@@ -70,6 +70,10 @@ nav li.nav-drop {
     padding-bottom: 80px;
 }
 
+.sectors h3 {
+    font-size: 50px;
+}
+
 @media (width >= 900px) {
 
     .nav-brand img {
