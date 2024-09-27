@@ -80,8 +80,8 @@ nav li.nav-drop {
 }
 
 .sectors img {
-    width: 180px;
-    height: 180px;
+    width: 150px !important;
+    height: 150px !important;
 
 }
 
