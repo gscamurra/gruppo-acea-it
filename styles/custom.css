@@ -8,6 +8,10 @@ main > .allpage.section > div {
     background-color: transparent !important;
 }
 
+.carousel-container ∏{
+    margin-bottom: 0px! important;
+}
+
 .carousel h4 {
     font-size: 15px;
     margin-top: 40px;
@@ -65,7 +69,7 @@ nav li.nav-drop {
 .sectors {
     background-color: #f5f7f7;
     text-align: center;
-    margin-top: -80px;
+    margin-top: 0 !important;
 }
 
 @media (width >= 900px) {
