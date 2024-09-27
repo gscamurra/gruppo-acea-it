@@ -68,10 +68,20 @@ nav li.nav-drop {
     margin-top: -40px !important;
     padding-top: 80px;
     padding-bottom: 80px;
+    color: #373737;
 }
 
 .sectors h3 {
     font-size: 50px;
+}
+
+.sectors h4 {
+    font-size: 20px;
+}
+
+.sectors img {
+    max-width: 180px;
+    height: auto;
 }
 
 @media (width >= 900px) {
