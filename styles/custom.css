@@ -64,6 +64,8 @@ nav li.nav-drop {
 
 .sectors {
     background-color: #f5f7f7;
+    text-align: center;
+    margin-top: -80px;
 }
 
 @media (width >= 900px) {
