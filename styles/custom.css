@@ -124,6 +124,10 @@ nav li.nav-drop {
     font-size: 40px;
 }
 
+.articles img {
+    border-radius: 5px !important;
+}
+
 
 @media (width >= 900px) {
 
