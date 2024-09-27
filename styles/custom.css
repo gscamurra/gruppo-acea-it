@@ -93,10 +93,14 @@ nav li.nav-drop {
     font-size: 16px !important;
 }
 
-.sectors .button-container a {
+.sectors .button-container a, .sectors a {
     font-size: 16px !important;
-    color: #00a8b0;
-    background: transparent;
+    color: #00a8b0 !important;
+    background: transparent !important;
+}
+
+.sectors .button-container a:hover, .sectors a:hover {
+    text-decoration: underline;
 }
 
 @media (width >= 900px) {
