@@ -85,13 +85,9 @@ nav li.nav-drop {
 
 }
 
-.sectors .columns-4-cols p {
+.sectors .columns-4-cols > div > div > p:nth-child(2) {
     float: left;
     width: 100%;
-}
-
-.sectors .columns-4-cols div p:nth-child(2) {
-    height: 100px;
 }
 
 @media (width >= 900px) {
