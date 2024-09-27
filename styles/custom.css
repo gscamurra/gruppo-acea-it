@@ -85,6 +85,11 @@ nav li.nav-drop {
 
 }
 
+.sectors p {
+    float: left;
+    width: 100%;
+}
+
 @media (width >= 900px) {
 
     .nav-brand img {
