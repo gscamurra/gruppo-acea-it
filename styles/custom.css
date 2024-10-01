@@ -173,5 +173,9 @@ nav li.nav-drop {
   footer {
     background-color: #373737!important;
     color: #FFF;
+  }
 
+  footer .block img:first-child {
+    width: 100px;
+    height: auto;
   }
