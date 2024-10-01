@@ -120,12 +120,18 @@ nav li.nav-drop {
     border-radius: 4vh 4vh 4vh 4vh;
 }
 
+
 .articles h3 {
     font-size: 40px;
 }
 
 .articles img {
     border-radius: 10px !important;
+}
+
+.articolo .button-container {
+    text-align: center;
+
 }
 
 
