@@ -153,9 +153,11 @@ nav li.nav-drop {
         height: 120px !important;
     }
 
-    h2 {
+    .homepage h2 {
       font-size: 60px !important;
     }
+
+    
   }
 
   footer {
