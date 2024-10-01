@@ -179,3 +179,8 @@ nav li.nav-drop {
     width: 100px;
     height: auto;
   }
+
+  footer .default-content-wrapper {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
