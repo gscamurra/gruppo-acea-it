@@ -97,18 +97,18 @@ nav li.nav-drop {
     font-size: 16px !important;
 }
 
-.sectors .button-container a, .sectors a {
+.sectors .button-container a, .sectors a, .articolo .button-container a {
     font-size: 14px !important;
     color: #00a8b0 !important;
     background: transparent !important;
     margin-top: 0 !important;
 }
 
-.sectors .button-container a:hover, .sectors a:hover {
+.sectors .button-container a:hover, .sectors a:hover, .articolo .button-container a:hover {
     text-decoration: underline;
 }
 
-.articles .button-container a {
+.articles .button-container a, .articolo .button-container a {
     background-color: #00a8b0;;
     border-radius: 4vh 4vh 0 4vh;
     transition: all .3s;
