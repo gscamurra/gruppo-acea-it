@@ -115,7 +115,7 @@ nav li.nav-drop {
     color: #FFF;
 }
 
-.articles .button-container a:hover, .articolo .button-container a {
+.articles .button-container a:hover, .articolo .button-container a:hover {
     text-decoration: underline;
     border-radius: 4vh 4vh 4vh 4vh;
 }
