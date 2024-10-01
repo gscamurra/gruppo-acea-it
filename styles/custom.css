@@ -134,6 +134,10 @@ nav li.nav-drop {
 
 }
 
+.background-grey {
+    background: #f5f7f7 !important;
+}
+
 
 @media (width >= 900px) {
 
@@ -155,6 +159,10 @@ nav li.nav-drop {
 
     .homepage h2 {
       font-size: 60px !important;
+    }
+
+    .articolo h2 {
+        text-align: center;
     }
 
     
