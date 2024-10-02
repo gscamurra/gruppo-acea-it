@@ -184,3 +184,10 @@ nav li.nav-drop {
     margin-top: 80px;
     margin-bottom: 50px;
   }
+
+  .carousel-test-color .carousel .button-container a {
+    background: #e8e100 !important;
+    font-size: 25px !important;
+    color: black !important;
+    border-color: #FFF !important;
+  }
