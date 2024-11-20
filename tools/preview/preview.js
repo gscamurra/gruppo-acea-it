@@ -103,4 +103,5 @@ export default function decoratePreviewOverlay() {
   loadCSS(`${window.hlx.codeBasePath}/tools/preview/preview.css`);
 
   getOverlay();
+  
 }
